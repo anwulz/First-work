@@ -1,0 +1,134 @@
+body{
+    background-color: peachpuff;
+}
+.total{
+    background: white;
+    width: 700px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 15px;
+    margin-left: 25%;
+    height: 1860px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img{
+    border-radius: 15px;
+    position: center;
+    margin-top:40px;
+   margin-left: 5%;
+   width: 630px;;
+   margin-right: 50%;
+   height: 250px;
+}
+.preparation{
+    background: rgb(255, 240, 242);
+    border-radius: 15px;  
+    width:630px;
+    margin-left: 5%;
+    height: 200px;
+}
+.preparation h2{
+    margin-left: 5%;
+    color: rgb(147, 45, 104);
+    padding-top: 10px;
+    padding-bottom: 0px;
+}
+.preparation ul{
+    margin-left: 5%;
+}
+.ingredients{
+    margin-left: 5%;
+}
+.ingredients h2{
+    color: rgb(131, 35, 20);
+}
+.food{
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.instruction {
+    margin-left: 5%;
+   margin-right: 5%;
+    
+}
+.instruction h2{
+    color: rgb(131, 35, 20);
+}
+.nutrition {
+    margin-left: 5%;
+}
+.nutrition h2{
+    color:rgb(131, 35, 20);
+}
+li{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: -2%;
+    font-weight: lighter;
+    font-size: 15px;
+}
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+.boldened{
+    font-weight: bold;
+}
+h1{
+    font-family:cursive;
+    font-size: 40px;
+}  
+
+h2{
+    font-size: 30px;
+    font-family: cursive
+}
+table{
+    border-collapse: collapse;
+    height: 50px;
+    margin-left: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}
+tr{
+    border-bottom: 1px solid rgb(190, 181, 181);
+}
+.last{
+    border-bottom: transparent;
+}
+.origin{
+    margin-left: 5%;
+}
+#footnotes li{
+    color: rgb(131, 35, 20);
+}
+#footnotes li span{
+    color: black;
+}
+ul li{
+    color: rgb(131, 35, 20);
+    list-style-type: disc;
+}
+ul li span{
+    color: black;
+}
+li::before{
+    content: "";
+    width: 10px;
+    display: inline-block;
+}
+ol ol{
+    margin-left: 2em;
+}
+li{
+  list-style-position: outside;
+  text-indent: -1em;
+  padding-left: 1em;
+}
+hr{
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(166, 166, 166);
+}
